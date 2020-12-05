@@ -1,0 +1,85 @@
+body {
+	font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    background-color:#fffdf9;
+    color: #16c8d0;
+    font-weight: lighter;
+
+}
+.card-white {
+	margin: 0px auto;
+	background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 20px;
+    text-align: center;
+}
+h1, h2 {   
+    font-weight: bold;
+    color: #F17F29;
+}
+h1, h2, h3, a {
+	font-family: 'Oswald', sans-serif;;    
+}
+
+a { 
+	text-decoration: none;
+    color: #303aae;
+    font-weight: bold;
+}
+ a:hover {
+ 	color : #F17F29;
+}
+.logo-bigger {
+	font-size: 60px;
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.button-blue{
+background-color: #303aae;
+color:white;
+padding :7px 20px;
+border-radius :4px;
+}
+.button-blue:hover {
+background-color: #F17F29;
+color : white;
+}
+
+
+.list-horizontal{
+list-style: none;
+padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+.image-circle {
+	width: 150px;
+	border-radius: 50%;
+}
+@media (max-width:960px) {
+	.container {
+		width: 700px;
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
